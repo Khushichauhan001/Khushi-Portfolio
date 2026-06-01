@@ -12,7 +12,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/khushi-chauhan001/", // ← update with your actual LinkedIn URL
   github: "https://github.com/Khushichauhan001",        // ← update with your actual GitHub URL
   leetcode: "https://leetcode.com/u/khushii001/",     // ← update with your actual LeetCode URL
-  resumeLink: "/Khushi_Res_AI.pdf",                            // ← place your resume PDF in /public/resume.pdf
+  resumeLink: "/Khushi_Res_MIcor1.pdf",                            // ← place your resume PDF in /public/resume.pdf
   avatarInitials: "KC",
 };
 
@@ -50,6 +50,14 @@ export const projects = [
     live: "",
   },
   {
+    title: "Git-PR-Analyzer",
+    description:
+      "Built an AI-powered GitHub PR Risk Analyzer for detecting and analyzing risky pull requests on GitHub. Personally fine-tuned Meta Phi-2 for instruction-based code review generation and CodeBERT for high-accuracy PR risk classification.",
+    tech: ["React.js" , "Javascript", "FASTAPI", "Python", "HTML/CSS" , "Collab", "PostgreSQL", "VectorDB", "REST APIs", "FineTune Phi-2", "CodeBert"],
+    github: "https://github.com/Khushichauhan001/Git_PR_Analyzer", // ← update
+    // live: "https://genixx-ai.vercel.app/",
+  },
+  {
     title: "Signalist – Stock Tracker",
     description:
       "Full-stack stock tracking web app with secure authentication, personalized watchlists, and real-time market insights via interactive heatmaps across 10+ sectors. Built with Inngest-powered background job processing.",
@@ -57,6 +65,7 @@ export const projects = [
     github: "https://github.com/Khushichauhan001/Stock_Tracker", // ← update
     live: "https://stock-trackerr-three.vercel.app/sign-in",
   },
+  
   {
     title: "GenixAI",
     description:
